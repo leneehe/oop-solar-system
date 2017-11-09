@@ -8,3 +8,4 @@ solar_system.add(sun)
 solar_system.add(earth)
 solar_system.add(earthmoon)
 puts solar_system.total_mass
+solar_system.add(earth)

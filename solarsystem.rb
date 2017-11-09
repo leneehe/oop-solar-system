@@ -5,7 +5,11 @@ class System
   end
 
   def add(celestrial)
-    @bodies << celestrial
+    if @bodies.include? celestrial
+      puts "#{celestrial.name} is already in your Solar System."
+    else
+      @bodies << celestrial
+    end
   end
 
   def total_mass
